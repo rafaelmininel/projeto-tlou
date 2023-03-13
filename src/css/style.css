@@ -61,3 +61,17 @@ body {
     right: 0;
     width: 80px;
 }
+
+/* ease in out (suavemente vai começar e terminar a animação) é o TIPO de animação que vai fazer */
+
+.menu-lateral .icone {
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+/* scale - é aumentar/ escalar é aumentar por isso 1.2 */
+
+.menu-lateral .icone:hover {
+    transform: scale(1.2);
+}
